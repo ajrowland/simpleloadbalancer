@@ -4,6 +4,8 @@
 
 I needed a method of testing a number of applications running under a single load balancer.
 
+Never consider this for production!
+
 ## Install
 
 ```
@@ -28,7 +30,7 @@ In this example, the application runs over port 3000.
 
 By default it serves requests from http://localhost:3001.
 
-It will serve from other URLs if the path is included in the configured array.
+It will serve from other URLs if the path is included in the configured array for that URL.
 
 ## Run
 
